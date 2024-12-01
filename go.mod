@@ -1,4 +1,4 @@
-module github.com/celestiaorg/rsmt2d
+module github.com/manojkgorle/rsmt2d
 
 go 1.21
 

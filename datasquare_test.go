@@ -471,6 +471,7 @@ func BenchmarkEDSRootsWithErasuredNMT(b *testing.B) {
 	}
 }
 
+// @todo computeRowProof
 func computeRowProof(ds *dataSquare, rowIdx uint, colIdx uint) ([]byte, [][]byte, uint, uint, error) {
 	tree := ds.createTreeFn(Row, rowIdx)
 	data := ds.row(rowIdx)

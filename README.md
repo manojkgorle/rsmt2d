@@ -2,9 +2,9 @@
 
 Go implementation of [two dimensional Reed-Solomon Merkle tree data availability scheme](https://arxiv.org/abs/1809.09044).
 
-[![Tests](https://github.com/celestiaorg/rsmt2d/actions/workflows/ci.yml/badge.svg)](https://github.com/celestiaorg/rsmt2d/actions/workflows/ci.yml)
+[![Tests](https://github.com/manojkgorle/rsmt2d/actions/workflows/ci.yml/badge.svg)](https://github.com/manojkgorle/rsmt2d/actions/workflows/ci.yml)
 [![Codecov](https://img.shields.io/codecov/c/github/celestiaorg/rsmt2d)](https://app.codecov.io/gh/celestiaorg/rsmt2d)
-[![GoDoc](https://godoc.org/github.com/celestiaorg/rsmt2d?status.svg)](https://godoc.org/github.com/celestiaorg/rsmt2d)
+[![GoDoc](https://godoc.org/github.com/manojkgorle/rsmt2d?status.svg)](https://godoc.org/github.com/manojkgorle/rsmt2d)
 
 ## Example
 
@@ -14,7 +14,7 @@ package main
 import (
     "bytes"
 
-    "github.com/celestiaorg/rsmt2d"
+    "github.com/manojkgorle/rsmt2d"
 )
 
 func main() {
@@ -96,4 +96,4 @@ golangci-lint run
 
 ## Audits
 
-[Informal Systems](https://informal.systems/) audited rsmt2d [v0.9.0](https://github.com/celestiaorg/rsmt2d/releases/tag/v0.9.0) in Q2 of 2023. See [informal-systems.pdf](./audit/informal-systems.pdf).
+[Informal Systems](https://informal.systems/) audited rsmt2d [v0.9.0](https://github.com/manojkgorle/rsmt2d/releases/tag/v0.9.0) in Q2 of 2023. See [informal-systems.pdf](./audit/informal-systems.pdf).

@@ -52,3 +52,7 @@ func (d *DefaultTree) Root() ([]byte, error) {
 	}
 	return d.root, nil
 }
+
+func (d *DefaultTree) Leaves() [][]byte {
+	return d.leaves
+}

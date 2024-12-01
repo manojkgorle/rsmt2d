@@ -113,6 +113,7 @@ func TestRepairExtendedDataSquare(t *testing.T) {
 	})
 }
 
+// @todo this if for fraud proofs.
 func TestValidFraudProof(t *testing.T) {
 	codec := NewLeoRSCodec()
 

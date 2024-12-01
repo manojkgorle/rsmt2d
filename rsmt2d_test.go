@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/celestiaorg/rsmt2d"
+	"github.com/manojkgorle/rsmt2d"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
